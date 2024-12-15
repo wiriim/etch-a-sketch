@@ -9,4 +9,13 @@
     height: 500px;
     border: 2px solid red;
     margin: 3rem auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.square{
+    flex: 1;
+    border: 1px solid black;
 }
