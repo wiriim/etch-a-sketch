@@ -6,16 +6,28 @@
 
 .container{
     width: 80vw;
-    height: 500px;
+    height: 80vh;
     border: 2px solid red;
     margin: 3rem auto;
 
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    gap: 0;
 }
 
 .square{
     flex: 1;
     border: 1px solid black;
+}
+
+button{
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 7px;
+    cursor: pointer;
 }
